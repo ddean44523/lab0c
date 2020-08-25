@@ -1,8 +1,8 @@
 #include <stdio.h>
+#include <readline/readline.h>
 
 int main(void) {
-  
-  
- printf("Hello, Dan Dean\n");
+  char *userName = readline(" Enter your name");
+ printf("Hello, %s/n", userName);
   return 0;
 }
